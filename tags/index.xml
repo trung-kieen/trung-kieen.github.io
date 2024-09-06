@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on trung-kieen</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on trung-kieen</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Copyright (c) 2024 trung-kieen</copyright>
+    <lastBuildDate>Fri, 06 Sep 2024 18:19:25 +0700</lastBuildDate>
+    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS</title>
+      <link>/tags/aws/</link>
+      <pubDate>Fri, 06 Sep 2024 21:05:57 +0700</pubDate>
+      <guid>/tags/aws/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Blog</title>
+      <link>/tags/blog/</link>
+      <pubDate>Fri, 06 Sep 2024 21:05:57 +0700</pubDate>
+      <guid>/tags/blog/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
