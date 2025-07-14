@@ -1,83 +1,467 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Blog on trung-kieen</title>
-    <link>/tags/blog/</link>
+    <link>https://trung-kieen.github.io/tags/blog/</link>
     <description>Recent content in Blog on trung-kieen</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>Copyright (c) 2024 trung-kieen</copyright>
-    <lastBuildDate>Fri, 06 Sep 2024 18:19:25 +0700</lastBuildDate>
-    <atom:link href="/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 11 Sep 2024 10:46:36 +0700</lastBuildDate><atom:link href="https://trung-kieen.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Workshop 1:  vpc</title>
-      <link>/blog/workshop1/</link>
+      <link>https://trung-kieen.github.io/blog/workshop1/</link>
       <pubDate>Fri, 06 Sep 2024 17:45:41 +0700</pubDate>
-      <guid>/blog/workshop1/</guid>
+      
+      <guid>https://trung-kieen.github.io/blog/workshop1/</guid>
       <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
     </item>
+    
     <item>
       <title>VPC</title>
-      <link>/blog/vpc/</link>
+      <link>https://trung-kieen.github.io/blog/workshop1/internet-concept/virtual-private-cloud---vpc/</link>
       <pubDate>Fri, 06 Sep 2024 17:47:05 +0700</pubDate>
-      <guid>/blog/vpc/</guid>
-      <description>VPC là một không gian mạng ảo được đặt tách biệt được định nghĩa trong môi trường của aws. Đóng vai trò cô lập các thành phần bên trong mạng với bên ngoài dùng và sử dụng các địa chỉ ip ảo để kết nối giữa các thành phần trong mạng nơi chứa đựng các tài nguyền và dịch vụ của aws mà ta cài đặt.</description>
+      
+      <guid>https://trung-kieen.github.io/blog/workshop1/internet-concept/virtual-private-cloud---vpc/</guid>
+      <description>&lt;p&gt;VPC là một không gian mạng ảo được đặt tách biệt được định nghĩa trong môi trường của aws. Đóng vai trò cô lập các thành phần bên trong mạng với bên ngoài dùng và sử dụng các địa chỉ ip ảo để kết nối giữa các thành phần trong mạng nơi chứa đựng các tài nguyền và dịch vụ của aws mà ta cài đặt.&lt;br&gt;
+Một VPC có thể có nằm trên nhiều AZ khác nhau. Tuy nhiên các AZ này phải nằm trong một region của aws.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>VPC là một không gian mạng ảo được đặt tách biệt được định nghĩa trong môi trường của aws. Đóng vai trò cô lập các thành phần bên trong mạng với bên ngoài dùng và sử dụng các địa chỉ ip ảo để kết nối giữa các thành phần trong mạng nơi chứa đựng các tài nguyền và dịch vụ của aws mà ta cài đặt.<br>
+Một VPC có thể có nằm trên nhiều AZ khác nhau. Tuy nhiên các AZ này phải nằm trong một region của aws.</p>
+<p><a href="/blog/workshop1/lab/create-vpc/">Create vpc</a>
+</p>
+]]></content:encoded>
     </item>
+    
     <item>
       <title>Internet concept</title>
-      <link>/blog/workshop1/internet-concept/</link>
+      <link>https://trung-kieen.github.io/blog/workshop1/internet-concept/</link>
       <pubDate>Fri, 06 Sep 2024 17:46:35 +0700</pubDate>
-      <guid>/blog/workshop1/internet-concept/</guid>
+      
+      <guid>https://trung-kieen.github.io/blog/workshop1/internet-concept/</guid>
       <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
     </item>
+    
     <item>
       <title>Blog</title>
-      <link>/blog/</link>
+      <link>https://trung-kieen.github.io/blog/</link>
       <pubDate>Thu, 07 Sep 2023 16:21:44 +0200</pubDate>
-      <guid>/blog/</guid>
+      
+      <guid>https://trung-kieen.github.io/blog/</guid>
       <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
     </item>
+    
     <item>
       <title>Subnet</title>
-      <link>/blog/subnet/</link>
+      <link>https://trung-kieen.github.io/blog/workshop1/internet-concept/subnet/</link>
       <pubDate>Fri, 06 Sep 2024 17:53:01 +0700</pubDate>
-      <guid>/blog/subnet/</guid>
-      <description>Subnet là thành phần không gian địa chỉ IP con nằm trong VPC mà chỉ thuộc một AZ nhất định. Vì VPC có thể trải dài trên nhiều AZ nên một VPC có thể có nhiều subnet khác nhau</description>
+      
+      <guid>https://trung-kieen.github.io/blog/workshop1/internet-concept/subnet/</guid>
+      <description>&lt;p&gt;Subnet là thành phần không gian địa chỉ IP con nằm trong VPC mà chỉ thuộc một AZ nhất định. Vì VPC có thể trải dài trên nhiều AZ nên một VPC có thể có nhiều subnet khác nhau.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://trung-kieen.github.io/blog/workshop1/Internet%20concept/../../../images/Pasted%20image%2020240911070135.png&#34; alt=&#34;Pasted image 20240911070135.png&#34;/&gt;
+&lt;/p&gt;
+&lt;p&gt;Subnet mà định hướng các thiết bị trong subnet để các thiết bị đó có thể kế nối tới  &lt;a href=&#34;https://trung-kieen.github.io/blog/workshop1/internet-concept/internet-gateway----igw/&#34;&gt;Internet gateway  - IGW&lt;/a&gt;
+  để giao tiếp với mạng bên ngoài VPC gọi là public subnet. Còn subnet mà cô lập với internet bên ngoài là private subnet.  Tuy nhiên  ta có thể cấu hình thiết bị thông qua &lt;a href=&#34;https://trung-kieen.github.io/blog/workshop1/internet-concept/nat-gateway/&#34;&gt;NAT gateway&lt;/a&gt;
+ để kết nối gián tiếp thiết bị từ private subnet tới &lt;a href=&#34;https://trung-kieen.github.io/blog/workshop1/internet-concept/internet-gateway----igw/&#34;&gt; IGW&lt;/a&gt;
+&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Subnet là thành phần không gian địa chỉ IP con nằm trong VPC mà chỉ thuộc một AZ nhất định. Vì VPC có thể trải dài trên nhiều AZ nên một VPC có thể có nhiều subnet khác nhau.</p>
+<p><img src="/blog/workshop1/Internet%20concept/../../../images/Pasted%20image%2020240911070135.png" alt="Pasted image 20240911070135.png"/>
+</p>
+<p>Subnet mà định hướng các thiết bị trong subnet để các thiết bị đó có thể kế nối tới  <a href="/blog/workshop1/internet-concept/internet-gateway----igw/">Internet gateway  - IGW</a>
+  để giao tiếp với mạng bên ngoài VPC gọi là public subnet. Còn subnet mà cô lập với internet bên ngoài là private subnet.  Tuy nhiên  ta có thể cấu hình thiết bị thông qua <a href="/blog/workshop1/internet-concept/nat-gateway/">NAT gateway</a>
+ để kết nối gián tiếp thiết bị từ private subnet tới <a href="/blog/workshop1/internet-concept/internet-gateway----igw/"> IGW</a>
+</p>
+<p><a href="/blog/workshop1/lab/create-subnet/">Create subnet</a>
+</p>
+]]></content:encoded>
     </item>
+    
     <item>
       <title>Route table</title>
-      <link>/blog/route-table/</link>
+      <link>https://trung-kieen.github.io/blog/workshop1/internet-concept/route-table/</link>
       <pubDate>Fri, 06 Sep 2024 19:07:05 +0700</pubDate>
-      <guid>/blog/route-table/</guid>
-      <description>Bảng định tuyến được sử dụng trong trong Subnet hoặc các cổng (gateway) dùng để quy định điều hướng mạng với các thiết bị này.</description>
+      
+      <guid>https://trung-kieen.github.io/blog/workshop1/internet-concept/route-table/</guid>
+      <description>&lt;p&gt;Bảng định tuyến được sử dụng trong trong &lt;a href=&#34;https://trung-kieen.github.io/blog/workshop1/internet-concept/subnet/&#34;&gt;Subnet&lt;/a&gt;
+ hoặc các cổng (gateway) dùng để quy định điều hướng mạng với các thiết bị này.&lt;br&gt;
+&lt;img src=&#34;https://trung-kieen.github.io/blog/workshop1/Internet%20concept/../../../images/Pasted%20image%2020240911070258.png&#34; alt=&#34;Pasted image 20240911070258.png&#34;/&gt;
+&lt;br&gt;
+Để quy định thiết bị nào được kết nối ta có thể thông qua địa chỉ IPv4, IPv6 của thiết bị hoặc phổ biến hơn là &lt;a href=&#34;https://trung-kieen.github.io/blog/workshop1/internet-concept/cidr-block/&#34;&gt; khối CIDR&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://trung-kieen.github.io/blog/workshop1/lab/create-route-table/&#34;&gt;Create route table&lt;/a&gt;
+&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Bảng định tuyến được sử dụng trong trong <a href="/blog/workshop1/internet-concept/subnet/">Subnet</a>
+ hoặc các cổng (gateway) dùng để quy định điều hướng mạng với các thiết bị này.<br>
+<img src="/blog/workshop1/Internet%20concept/../../../images/Pasted%20image%2020240911070258.png" alt="Pasted image 20240911070258.png"/>
+<br>
+Để quy định thiết bị nào được kết nối ta có thể thông qua địa chỉ IPv4, IPv6 của thiết bị hoặc phổ biến hơn là <a href="/blog/workshop1/internet-concept/cidr-block/"> khối CIDR</a>
+.</p>
+<p><a href="/blog/workshop1/lab/create-route-table/">Create route table</a>
+</p>
+]]></content:encoded>
     </item>
+    
     <item>
       <title>CIDR block</title>
-      <link>/blog/cidr-block/</link>
+      <link>https://trung-kieen.github.io/blog/workshop1/internet-concept/cidr-block/</link>
       <pubDate>Fri, 06 Sep 2024 19:50:47 +0700</pubDate>
-      <guid>/blog/cidr-block/</guid>
-      <description>Trong subnet, CIDR block được sử dụng để quy định miền địa chỉ ip của các tài nguyên được quyền kết nối tới.</description>
+      
+      <guid>https://trung-kieen.github.io/blog/workshop1/internet-concept/cidr-block/</guid>
+      <description>&lt;p&gt;Trong subnet, CIDR block được sử dụng để quy định miền địa chỉ ip của các tài nguyên được quyền kết nối tới. Đối với trường hợp dưới thì ta có &lt;code&gt;0.0.0.0/0&lt;/code&gt; tương ứng với mọi địa chỉ IP có trong subnet có thế kết nối tới internet gateway.&lt;br&gt;
+Tương tự &lt;code&gt;10.0.0.0/16&lt;/code&gt; là miền ip mặc định của subnet được khởi tạo. Trong đó:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;10.0.0.0&lt;/code&gt; là địa chỉ mạng trong đó các số có giá trị trong miền từ 0-255 tương ứng với 8 bit để mã hóa (2^8 = 256).&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;16&lt;/code&gt; biểu diễn là số bit đã được sử dụng. Vậy thì miền địa chỉ ip sẽ áp dụng cho 2 vị trí cuối cùng.&lt;br&gt;
+Vậy nên &lt;code&gt;10.0.0.0/16&lt;/code&gt; sẽ quy định miền địa chỉ ip từ &lt;code&gt;10.0.0.0.0&lt;/code&gt; đến &lt;code&gt;10.0.255.255&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;https://trung-kieen.github.io/blog/workshop1/Internet%20concept/../../../images/Pasted%20image%2020240906195436.png&#34; alt=&#34;Pasted image 20240906195436.png&#34;/&gt;
+&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Trong subnet, CIDR block được sử dụng để quy định miền địa chỉ ip của các tài nguyên được quyền kết nối tới. Đối với trường hợp dưới thì ta có <code>0.0.0.0/0</code> tương ứng với mọi địa chỉ IP có trong subnet có thế kết nối tới internet gateway.<br>
+Tương tự <code>10.0.0.0/16</code> là miền ip mặc định của subnet được khởi tạo. Trong đó:</p>
+<ul>
+<li><code>10.0.0.0</code> là địa chỉ mạng trong đó các số có giá trị trong miền từ 0-255 tương ứng với 8 bit để mã hóa (2^8 = 256).</li>
+<li><code>16</code> biểu diễn là số bit đã được sử dụng. Vậy thì miền địa chỉ ip sẽ áp dụng cho 2 vị trí cuối cùng.<br>
+Vậy nên <code>10.0.0.0/16</code> sẽ quy định miền địa chỉ ip từ <code>10.0.0.0.0</code> đến <code>10.0.255.255</code>.</li>
+</ul>
+<p><img src="/blog/workshop1/Internet%20concept/../../../images/Pasted%20image%2020240906195436.png" alt="Pasted image 20240906195436.png"/>
+</p>
+<h1 id="reference">Reference</h1>
+<p><a href="https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Route_Tables.html">Aws configure route tables</a>
+</p>
+]]></content:encoded>
     </item>
+    
     <item>
       <title>VPC internet gateway</title>
-      <link>/blog/vpc-internet-gateway/</link>
+      <link>https://trung-kieen.github.io/blog/workshop1/internet-concept/internet-gateway----igw/</link>
       <pubDate>Fri, 06 Sep 2024 18:14:29 +0700</pubDate>
-      <guid>/blog/vpc-internet-gateway/</guid>
-      <description>Các tài nguyên trong public subnet khi mặt định khởi tạo không có khả năng kết nối với mạng internet. Ta phải sử dụng bảng định tuyết Route table để điều hướng các kết nối từ public subnet đến IGW.</description>
+      
+      <guid>https://trung-kieen.github.io/blog/workshop1/internet-concept/internet-gateway----igw/</guid>
+      <description>&lt;p&gt;Các tài nguyên trong public subnet khi mặt định khởi tạo không có khả năng kết nối với mạng internet.  Ta phải sử dụng bảng định tuyết &lt;a href=&#34;https://trung-kieen.github.io/blog/workshop1/internet-concept/route-table/&#34;&gt;Route table&lt;/a&gt;
+ để điều hướng các kết nối từ public subnet đến IGW.&lt;br&gt;
+IGW cung cấp khả năng kết nối mạng cũng như khả co giãn theo chiều ngang và linh hoạt để băng thông hoạt động ổn định. Để thực hiện hoá công việc này IGW sẽ đóng vai trò &lt;a href=&#34;https://trung-kieen.github.io/blog/workshop1/internet-concept/network-address-translation---nat/&#34;&gt;Network address translation - NAT&lt;/a&gt;
+ nhằm biên dịch các địa chỉ ảo trong VPC thành địa chỉ IP thực.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Các tài nguyên trong public subnet khi mặt định khởi tạo không có khả năng kết nối với mạng internet.  Ta phải sử dụng bảng định tuyết <a href="/blog/workshop1/internet-concept/route-table/">Route table</a>
+ để điều hướng các kết nối từ public subnet đến IGW.<br>
+IGW cung cấp khả năng kết nối mạng cũng như khả co giãn theo chiều ngang và linh hoạt để băng thông hoạt động ổn định. Để thực hiện hoá công việc này IGW sẽ đóng vai trò <a href="/blog/workshop1/internet-concept/network-address-translation---nat/">Network address translation - NAT</a>
+ nhằm biên dịch các địa chỉ ảo trong VPC thành địa chỉ IP thực.</p>
+<p><img src="/blog/workshop1/Internet%20concept/../../../images/Pasted%20image%2020240906194006.png" alt="Pasted image 20240906194006.png"/>
+</p>
+<p><a href="/blog/workshop1/internet-concept/internet-gateway----igw/">Internet gateway  - IGW</a>
+</p>
+]]></content:encoded>
     </item>
+    
     <item>
       <title>NAT</title>
-      <link>/blog/nat/</link>
+      <link>https://trung-kieen.github.io/blog/workshop1/internet-concept/nat-gateway/</link>
       <pubDate>Fri, 06 Sep 2024 19:07:01 +0700</pubDate>
-      <guid>/blog/nat/</guid>
-      <description>Nat gateway hỗ trợ việc kết nối cho tài nguyên từ private subnet có thể kết nối với internet. Thông qua NAT tài nguyên có thể giao tiếp với các dịch vụ từ bên ngoài.</description>
+      
+      <guid>https://trung-kieen.github.io/blog/workshop1/internet-concept/nat-gateway/</guid>
+      <description>&lt;p&gt;Nat gateway hỗ trợ việc kết nối cho tài nguyên từ private subnet có thể kết nối với internet. Thông qua NAT tài nguyên có thể giao tiếp với các dịch vụ từ bên ngoài. Kết nối của NAT gateway là một chiều  để tài nguyên như EC2 có thể kết nối với dịch vụ bên ngoài. Nên dịch vụ bên ngoài không thể kết nối với máy chủ EC2 trong private subnet thông qua NAT gateway.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Nat gateway hỗ trợ việc kết nối cho tài nguyên từ private subnet có thể kết nối với internet. Thông qua NAT tài nguyên có thể giao tiếp với các dịch vụ từ bên ngoài. Kết nối của NAT gateway là một chiều  để tài nguyên như EC2 có thể kết nối với dịch vụ bên ngoài. Nên dịch vụ bên ngoài không thể kết nối với máy chủ EC2 trong private subnet thông qua NAT gateway.</p>
+]]></content:encoded>
     </item>
+    
     <item>
       <title>Network address translation - NAT</title>
-      <link>/blog/network-address-translation-nat/</link>
+      <link>https://trung-kieen.github.io/blog/workshop1/internet-concept/network-address-translation---nat/</link>
       <pubDate>Fri, 06 Sep 2024 21:05:57 +0700</pubDate>
-      <guid>/blog/network-address-translation-nat/</guid>
-      <description>NAT là dịch vụ của AWS dùng để chuyển đổi địa chỉ ảo trong VPC thành địa chỉ vật lý.</description>
+      
+      <guid>https://trung-kieen.github.io/blog/workshop1/internet-concept/network-address-translation---nat/</guid>
+      <description>&lt;p&gt;NAT là dịch vụ của AWS dùng để chuyển đổi địa chỉ ảo trong &lt;a href=&#34;https://trung-kieen.github.io/blog/workshop1/internet-concept/virtual-private-cloud---vpc/&#34;&gt; VPC&lt;/a&gt;
+ thành địa chỉ vật lý.&lt;br&gt;
+Một số dịch vụ NAT:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://trung-kieen.github.io/blog/workshop1/internet-concept/internet-gateway----igw/&#34;&gt;Internet gateway  - IGW&lt;/a&gt;
+: chuyển đổi địa chỉ từ ip  thành địa chỉ thật giao tiếp với internet&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://trung-kieen.github.io/blog/workshop1/internet-concept/nat-gateway/&#34;&gt;NAT gateway&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <content:encoded><![CDATA[<p>NAT là dịch vụ của AWS dùng để chuyển đổi địa chỉ ảo trong <a href="/blog/workshop1/internet-concept/virtual-private-cloud---vpc/"> VPC</a>
+ thành địa chỉ vật lý.<br>
+Một số dịch vụ NAT:</p>
+<ul>
+<li><a href="/blog/workshop1/internet-concept/internet-gateway----igw/">Internet gateway  - IGW</a>
+: chuyển đổi địa chỉ từ ip  thành địa chỉ thật giao tiếp với internet</li>
+<li><a href="/blog/workshop1/internet-concept/nat-gateway/">NAT gateway</a>
+</li>
+</ul>
+]]></content:encoded>
     </item>
+    
+    <item>
+      <title>Price of amazon VPC</title>
+      <link>https://trung-kieen.github.io/blog/workshop1/lab/price-of-amazon-vpc/</link>
+      <pubDate>Wed, 11 Sep 2024 07:27:52 +0700</pubDate>
+      
+      <guid>https://trung-kieen.github.io/blog/workshop1/lab/price-of-amazon-vpc/</guid>
+      <description>&lt;p&gt;Một số dịch vụ cho việc tạo VPC sẽ tốn chi phí nhất định chẳng hạn việc sử dụng NAT gateway sẽ tốn &lt;code&gt;0.045$&lt;/code&gt;   trong một giờ.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;There&amp;rsquo;s no additional charge for using a VPC. There are, however, charges for some VPC components, such as NAT gateways, IP Address Manager, traffic mirroring, Reachability Analyzer, and Network Access Analyzer. For more information, see &lt;a href=&#34;https://aws.amazon.com/vpc/pricing/&#34;&gt;Amazon VPC Pricing&lt;/a&gt;
+.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h1 id=&#34;reference&#34;&gt;Reference&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html&#34;&gt;Aws docs&lt;/a&gt;
+&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Một số dịch vụ cho việc tạo VPC sẽ tốn chi phí nhất định chẳng hạn việc sử dụng NAT gateway sẽ tốn <code>0.045$</code>   trong một giờ.</p>
+<blockquote>
+<p>There&rsquo;s no additional charge for using a VPC. There are, however, charges for some VPC components, such as NAT gateways, IP Address Manager, traffic mirroring, Reachability Analyzer, and Network Access Analyzer. For more information, see <a href="https://aws.amazon.com/vpc/pricing/">Amazon VPC Pricing</a>
+.</p></blockquote>
+<h1 id="reference">Reference</h1>
+<p><a href="https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html">Aws docs</a>
+</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Create vpc</title>
+      <link>https://trung-kieen.github.io/blog/workshop1/lab/create-vpc/</link>
+      <pubDate>Wed, 11 Sep 2024 08:22:00 +0700</pubDate>
+      
+      <guid>https://trung-kieen.github.io/blog/workshop1/lab/create-vpc/</guid>
+      <description>&lt;p&gt;Truy cập tới &lt;a href=&#34;https://ap-southeast-1.console.aws.amazon.com/vpcconsole/home?region=ap-southeast-1#vpcs:&#34;&gt;vpc dardboard (ap-southeast-1)&lt;/a&gt;
+ hoặc sử dụng thanh tìm kiếm của aws&lt;br&gt;
+&lt;img src=&#34;https://trung-kieen.github.io/blog/workshop1/Lab/../../../images/Pasted%20image%2020240911064857.png&#34; alt=&#34;Pasted image 20240911064857.png&#34;/&gt;
+&lt;/p&gt;
+&lt;p&gt;Truy cập vào mục VPCs&lt;br&gt;
+&lt;img src=&#34;https://trung-kieen.github.io/blog/workshop1/Lab/../../../images/Pasted%20image%2020240911064942.png&#34; alt=&#34;Pasted image 20240911064942.png&#34;/&gt;
+&lt;br&gt;
+Chọn để tạo VPC mới&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://trung-kieen.github.io/blog/workshop1/Lab/../../../images/Pasted%20image%2020240911065009.png&#34; alt=&#34;Pasted image 20240911065009.png&#34;/&gt;
+&lt;br&gt;
+Nhập tên cho VPC và &lt;a href=&#34;https://trung-kieen.github.io/blog/workshop1/internet-concept/cidr-block/&#34;&gt;CIDR block&lt;/a&gt;
+ để thiết lập miền ip cho vpc này&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://trung-kieen.github.io/blog/workshop1/Lab/../../../images/Pasted%20image%2020240911073715.png&#34; alt=&#34;Pasted image 20240911073715.png&#34;/&gt;
+&lt;/p&gt;
+&lt;p&gt;Vậy là vpc đã tạo thành công. Thông tin của VPC vừa tạo được hiện ra với trạng thái &lt;code&gt;Available&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://trung-kieen.github.io/blog/workshop1/Lab/../../../images/Pasted%20image%2020240911065751.png&#34; alt=&#34;Pasted image 20240911065751.png&#34;/&gt;
+&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Truy cập tới <a href="https://ap-southeast-1.console.aws.amazon.com/vpcconsole/home?region=ap-southeast-1#vpcs:">vpc dardboard (ap-southeast-1)</a>
+ hoặc sử dụng thanh tìm kiếm của aws<br>
+<img src="/blog/workshop1/Lab/../../../images/Pasted%20image%2020240911064857.png" alt="Pasted image 20240911064857.png"/>
+</p>
+<p>Truy cập vào mục VPCs<br>
+<img src="/blog/workshop1/Lab/../../../images/Pasted%20image%2020240911064942.png" alt="Pasted image 20240911064942.png"/>
+<br>
+Chọn để tạo VPC mới</p>
+<p><img src="/blog/workshop1/Lab/../../../images/Pasted%20image%2020240911065009.png" alt="Pasted image 20240911065009.png"/>
+<br>
+Nhập tên cho VPC và <a href="/blog/workshop1/internet-concept/cidr-block/">CIDR block</a>
+ để thiết lập miền ip cho vpc này</p>
+<p><img src="/blog/workshop1/Lab/../../../images/Pasted%20image%2020240911073715.png" alt="Pasted image 20240911073715.png"/>
+</p>
+<p>Vậy là vpc đã tạo thành công. Thông tin của VPC vừa tạo được hiện ra với trạng thái <code>Available</code></p>
+<p><img src="/blog/workshop1/Lab/../../../images/Pasted%20image%2020240911065751.png" alt="Pasted image 20240911065751.png"/>
+</p>
+<p>Cuối cùng thiết lập thêm DNS cho VPC vừa tạo  để dễ dàng lưa chọn cho việc tạo subnet tương ứng với VPC<br>
+<img src="/blog/workshop1/Lab/../../../images/Pasted%20image%2020240911071937.png" alt="Pasted image 20240911071937.png"/>
+</p>
+<p><img src="/blog/workshop1/Lab/../../../images/Pasted%20image%2020240911072016.png" alt="Pasted image 20240911072016.png"/>
+</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Create subnet</title>
+      <link>https://trung-kieen.github.io/blog/workshop1/lab/create-subnet/</link>
+      <pubDate>Wed, 11 Sep 2024 08:25:32 +0700</pubDate>
+      
+      <guid>https://trung-kieen.github.io/blog/workshop1/lab/create-subnet/</guid>
+      <description>&lt;h1 id=&#34;tạo-public-và-private-subnet&#34;&gt;Tạo public và private subnet&lt;/h1&gt;
+&lt;p&gt;Truy cập &lt;a href=&#34;https://us-east-1.console.aws.amazon.com/vpcconsole/home?region=us-east-1#subnets:&#34;&gt;mục subnet&lt;/a&gt;
+ trong VPC dashboard&lt;br&gt;
+&lt;img src=&#34;https://trung-kieen.github.io/blog/workshop1/Lab/../../../images/Pasted%20image%2020240911071647.png&#34; alt=&#34;Pasted image 20240911071647.png&#34;/&gt;
+&lt;br&gt;
+Chọn VPC tương ứng với subnet muốn tạo&lt;br&gt;
+&lt;img src=&#34;https://trung-kieen.github.io/blog/workshop1/Lab/../../../images/Pasted%20image%2020240911072917.png&#34; alt=&#34;Pasted image 20240911072917.png&#34;/&gt;
+&lt;/p&gt;
+&lt;p&gt;Tạo subnet với CIDR là &lt;code&gt;10.10.1.0/24&lt;/code&gt; sử dụng với vai trò public subnet&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://trung-kieen.github.io/blog/workshop1/Lab/../../../images/Pasted%20image%2020240911073825.png&#34; alt=&#34;Pasted image 20240911073825.png&#34;/&gt;
+&lt;/p&gt;
+&lt;p&gt;Tương tự tạo thêm public subnet thứ 2 trên AZ 2b với CIDR là &lt;code&gt;10.10.2.0/24&lt;/code&gt;&lt;br&gt;
+&lt;img src=&#34;https://trung-kieen.github.io/blog/workshop1/Lab/../../../images/Pasted%20image%2020240911074130.png&#34; alt=&#34;Pasted image 20240911074130.png&#34;/&gt;
+&lt;br&gt;
+Tương tự tạo thêm 2 private subnet với CIDR lần lượt là &lt;code&gt;10.10.3.0/24&lt;/code&gt; và &lt;code&gt;10.10.4.0/24&lt;/code&gt; ở lần lượt 2 AZ 2a và 2b&lt;br&gt;
+&lt;img src=&#34;https://trung-kieen.github.io/blog/workshop1/Lab/../../../images/Pasted%20image%2020240911074308.png&#34; alt=&#34;Pasted image 20240911074308.png&#34;/&gt;
+&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<h1 id="tạo-public-và-private-subnet">Tạo public và private subnet</h1>
+<p>Truy cập <a href="https://us-east-1.console.aws.amazon.com/vpcconsole/home?region=us-east-1#subnets:">mục subnet</a>
+ trong VPC dashboard<br>
+<img src="/blog/workshop1/Lab/../../../images/Pasted%20image%2020240911071647.png" alt="Pasted image 20240911071647.png"/>
+<br>
+Chọn VPC tương ứng với subnet muốn tạo<br>
+<img src="/blog/workshop1/Lab/../../../images/Pasted%20image%2020240911072917.png" alt="Pasted image 20240911072917.png"/>
+</p>
+<p>Tạo subnet với CIDR là <code>10.10.1.0/24</code> sử dụng với vai trò public subnet</p>
+<p><img src="/blog/workshop1/Lab/../../../images/Pasted%20image%2020240911073825.png" alt="Pasted image 20240911073825.png"/>
+</p>
+<p>Tương tự tạo thêm public subnet thứ 2 trên AZ 2b với CIDR là <code>10.10.2.0/24</code><br>
+<img src="/blog/workshop1/Lab/../../../images/Pasted%20image%2020240911074130.png" alt="Pasted image 20240911074130.png"/>
+<br>
+Tương tự tạo thêm 2 private subnet với CIDR lần lượt là <code>10.10.3.0/24</code> và <code>10.10.4.0/24</code> ở lần lượt 2 AZ 2a và 2b<br>
+<img src="/blog/workshop1/Lab/../../../images/Pasted%20image%2020240911074308.png" alt="Pasted image 20240911074308.png"/>
+</p>
+<p><img src="/blog/workshop1/Lab/../../../images/Pasted%20image%2020240911074359.png" alt="Pasted image 20240911074359.png"/>
+</p>
+<h1 id="thiết-lập-router-table-cho-public-subnet">Thiết lập router table cho public subnet</h1>
+<p>Như vậy ở phần trước đã tạo 2 subnet cho mỗi AZ trong đó mỗi AZ có 1 public subnet và 1 private subnet. Vì các subnet được tạo hoàn toàn tương tự như nên để 2 public subnet vừa tạo thực sự là publiic subnet cần cài đặt thêm cơ chế auto assign ipv4 như hình sau</p>
+<p><img src="/blog/workshop1/Lab/../../../images/Pasted%20image%2020240911075304.png" alt="Pasted image 20240911075304.png"/>
+</p>
+<p><img src="/blog/workshop1/Lab/../../../images/Pasted%20image%2020240911075322.png" alt="Pasted image 20240911075322.png"/>
+</p>
+<p><img src="/blog/workshop1/Lab/../../../images/Pasted%20image%2020240911075336.png" alt="Pasted image 20240911075336.png"/>
+<br>
+Lưu và thực hiện tương tự với public subnet còn lại</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Create Internet Gateway</title>
+      <link>https://trung-kieen.github.io/blog/workshop1/lab/create-internet-gateway/</link>
+      <pubDate>Wed, 11 Sep 2024 08:35:51 +0700</pubDate>
+      
+      <guid>https://trung-kieen.github.io/blog/workshop1/lab/create-internet-gateway/</guid>
+      <description>&lt;p&gt;Chọn mục &lt;a href=&#34;https://us-east-1.console.aws.amazon.com/vpcconsole/home?region=us-east-1#igws:&#34;&gt;internet gateway&lt;/a&gt;
+ trong VPC dashboard&lt;br&gt;
+&lt;img src=&#34;https://trung-kieen.github.io/blog/workshop1/Lab/../../../images/Pasted%20image%2020240911083016.png&#34; alt=&#34;Pasted image 20240911083016.png&#34;/&gt;
+&lt;/p&gt;
+&lt;p&gt;Chọn tạo internet gateway&lt;br&gt;
+&lt;img src=&#34;https://trung-kieen.github.io/blog/workshop1/Lab/../../../images/Pasted%20image%2020240911110406.png&#34; alt=&#34;Pasted image 20240911110406.png&#34;/&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://trung-kieen.github.io/blog/workshop1/Lab/../../../images/Pasted%20image%2020240911083213.png&#34; alt=&#34;Pasted image 20240911083213.png&#34;/&gt;
+&lt;br&gt;
+Gắn internet gateway này với VPC trong lab này&lt;br&gt;
+&lt;img src=&#34;https://trung-kieen.github.io/blog/workshop1/Lab/../../../images/Pasted%20image%2020240911083350.png&#34; alt=&#34;Pasted image 20240911083350.png&#34;/&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://trung-kieen.github.io/blog/workshop1/Lab/../../../images/Pasted%20image%2020240911083441.png&#34; alt=&#34;Pasted image 20240911083441.png&#34;/&gt;
+&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Chọn mục <a href="https://us-east-1.console.aws.amazon.com/vpcconsole/home?region=us-east-1#igws:">internet gateway</a>
+ trong VPC dashboard<br>
+<img src="/blog/workshop1/Lab/../../../images/Pasted%20image%2020240911083016.png" alt="Pasted image 20240911083016.png"/>
+</p>
+<p>Chọn tạo internet gateway<br>
+<img src="/blog/workshop1/Lab/../../../images/Pasted%20image%2020240911110406.png" alt="Pasted image 20240911110406.png"/>
+</p>
+<p><img src="/blog/workshop1/Lab/../../../images/Pasted%20image%2020240911083213.png" alt="Pasted image 20240911083213.png"/>
+<br>
+Gắn internet gateway này với VPC trong lab này<br>
+<img src="/blog/workshop1/Lab/../../../images/Pasted%20image%2020240911083350.png" alt="Pasted image 20240911083350.png"/>
+</p>
+<p><img src="/blog/workshop1/Lab/../../../images/Pasted%20image%2020240911083441.png" alt="Pasted image 20240911083441.png"/>
+</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Create route table</title>
+      <link>https://trung-kieen.github.io/blog/workshop1/lab/create-route-table/</link>
+      <pubDate>Wed, 11 Sep 2024 10:45:58 +0700</pubDate>
+      
+      <guid>https://trung-kieen.github.io/blog/workshop1/lab/create-route-table/</guid>
+      <description>&lt;p&gt;Trong workshop này ta sẽ tạo một route table chính cho VPC gắn với internet gateway và 2 public subnet&lt;/p&gt;
+&lt;p&gt;Đầu tiên chọn mục route table trong VPC Dashboard và chọn tạo route table&lt;br&gt;
+&lt;img src=&#34;https://trung-kieen.github.io/blog/workshop1/Lab/../../../images/Pasted%20image%2020240911084006.png&#34; alt=&#34;Pasted image 20240911084006.png&#34;/&gt;
+&lt;br&gt;
+Tiến hành định tuyến&lt;br&gt;
+&lt;img src=&#34;https://trung-kieen.github.io/blog/workshop1/Lab/../../../images/Pasted%20image%2020240911084120.png&#34; alt=&#34;Pasted image 20240911084120.png&#34;/&gt;
+&lt;br&gt;
+Tiến hành thêm route mới từ internet gateway tới CIDR &lt;code&gt;0.0.0.0/0&lt;/code&gt; tương ứng với mọi địa chỉ ipv4 trên internet&lt;br&gt;
+&lt;img src=&#34;https://trung-kieen.github.io/blog/workshop1/Lab/../../../images/Pasted%20image%2020240911084344.png&#34; alt=&#34;Pasted image 20240911084344.png&#34;/&gt;
+&lt;br&gt;
+Sau đó lưu thay đổi sau khi hoàn tất thì kiểm tra lại trạng thái của route&lt;br&gt;
+&lt;img src=&#34;https://trung-kieen.github.io/blog/workshop1/Lab/../../../images/Pasted%20image%2020240911084554.png&#34; alt=&#34;Pasted image 20240911084554.png&#34;/&gt;
+&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Trong workshop này ta sẽ tạo một route table chính cho VPC gắn với internet gateway và 2 public subnet</p>
+<p>Đầu tiên chọn mục route table trong VPC Dashboard và chọn tạo route table<br>
+<img src="/blog/workshop1/Lab/../../../images/Pasted%20image%2020240911084006.png" alt="Pasted image 20240911084006.png"/>
+<br>
+Tiến hành định tuyến<br>
+<img src="/blog/workshop1/Lab/../../../images/Pasted%20image%2020240911084120.png" alt="Pasted image 20240911084120.png"/>
+<br>
+Tiến hành thêm route mới từ internet gateway tới CIDR <code>0.0.0.0/0</code> tương ứng với mọi địa chỉ ipv4 trên internet<br>
+<img src="/blog/workshop1/Lab/../../../images/Pasted%20image%2020240911084344.png" alt="Pasted image 20240911084344.png"/>
+<br>
+Sau đó lưu thay đổi sau khi hoàn tất thì kiểm tra lại trạng thái của route<br>
+<img src="/blog/workshop1/Lab/../../../images/Pasted%20image%2020240911084554.png" alt="Pasted image 20240911084554.png"/>
+</p>
+<p>Như vậy internet gateway đã được thêm điều hướng với route table. Để cho các public subnet này liên kết với internet gateway.</p>
+<p>Thực hiện edit associations<br>
+<img src="/blog/workshop1/Lab/../../../images/Pasted%20image%2020240911091039.png" alt="Pasted image 20240911091039.png"/>
+</p>
+<p>Tiến hành chọn public subnet<br>
+<img src="/blog/workshop1/Lab/../../../images/Pasted%20image%2020240911091119.png" alt="Pasted image 20240911091119.png"/>
+</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Create security group</title>
+      <link>https://trung-kieen.github.io/blog/workshop1/lab/create-security-group/</link>
+      <pubDate>Wed, 11 Sep 2024 10:46:36 +0700</pubDate>
+      
+      <guid>https://trung-kieen.github.io/blog/workshop1/lab/create-security-group/</guid>
+      <description>&lt;h1 id=&#34;sg-cho-public-subnet&#34;&gt;SG cho public subnet&lt;/h1&gt;
+&lt;p&gt;Đầu tiên chọn &lt;a href=&#34;https://us-east-1.console.aws.amazon.com/vpcconsole/home?region=us-east-1#SecurityGroups:&#34;&gt;mục security&lt;/a&gt;
+ group trong VPC Dashboard và chọn tạo security group&lt;br&gt;
+&lt;img src=&#34;https://trung-kieen.github.io/blog/workshop1/Lab/../../../images/Pasted%20image%2020240911091348.png&#34; alt=&#34;Pasted image 20240911091348.png&#34;/&gt;
+&lt;/p&gt;
+&lt;p&gt;Chọn VPC cho Security group cần tạo&lt;br&gt;
+&lt;img src=&#34;https://trung-kieen.github.io/blog/workshop1/Lab/../../../images/Pasted%20image%2020240911091635.png&#34; alt=&#34;Pasted image 20240911091635.png&#34;/&gt;
+&lt;/p&gt;
+&lt;p&gt;Thiết lập những kết nối từ bên ngoài có thể truy cập vào trong public subnet với security group:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;SSH&lt;/code&gt;: cho phép kết nối ssh vào trong các public subnet điều này đồng nghĩa các tài nguyên chẳng hạn như máy chủ EC2 được cài đặt trong public  subnet có thể truy cập từ mọi địa chỉ IPv4.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Custom ICMP - IPv4&lt;/code&gt; cho phép ping tới server trong public subnet&lt;br&gt;
+&lt;img src=&#34;https://trung-kieen.github.io/blog/workshop1/Lab/../../../images/Pasted%20image%2020240911094858.png&#34; alt=&#34;Pasted image 20240911094858.png&#34;/&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Đối với outbound thì cho phép các tài nguyên trong public subnet có thể kết nối với internet.&lt;br&gt;
+&lt;img src=&#34;https://trung-kieen.github.io/blog/workshop1/Lab/../../../images/Pasted%20image%2020240911103054.png&#34; alt=&#34;Pasted image 20240911103054.png&#34;/&gt;
+&lt;br&gt;
+Cuối cùng hoàn tất việc tạo security group&lt;br&gt;
+&lt;img src=&#34;https://trung-kieen.github.io/blog/workshop1/Lab/../../../images/Pasted%20image%2020240911104535.png&#34; alt=&#34;Pasted image 20240911104535.png&#34;/&gt;
+&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<h1 id="sg-cho-public-subnet">SG cho public subnet</h1>
+<p>Đầu tiên chọn <a href="https://us-east-1.console.aws.amazon.com/vpcconsole/home?region=us-east-1#SecurityGroups:">mục security</a>
+ group trong VPC Dashboard và chọn tạo security group<br>
+<img src="/blog/workshop1/Lab/../../../images/Pasted%20image%2020240911091348.png" alt="Pasted image 20240911091348.png"/>
+</p>
+<p>Chọn VPC cho Security group cần tạo<br>
+<img src="/blog/workshop1/Lab/../../../images/Pasted%20image%2020240911091635.png" alt="Pasted image 20240911091635.png"/>
+</p>
+<p>Thiết lập những kết nối từ bên ngoài có thể truy cập vào trong public subnet với security group:</p>
+<ul>
+<li><code>SSH</code>: cho phép kết nối ssh vào trong các public subnet điều này đồng nghĩa các tài nguyên chẳng hạn như máy chủ EC2 được cài đặt trong public  subnet có thể truy cập từ mọi địa chỉ IPv4.</li>
+<li><code>Custom ICMP - IPv4</code> cho phép ping tới server trong public subnet<br>
+<img src="/blog/workshop1/Lab/../../../images/Pasted%20image%2020240911094858.png" alt="Pasted image 20240911094858.png"/>
+</li>
+</ul>
+<p>Đối với outbound thì cho phép các tài nguyên trong public subnet có thể kết nối với internet.<br>
+<img src="/blog/workshop1/Lab/../../../images/Pasted%20image%2020240911103054.png" alt="Pasted image 20240911103054.png"/>
+<br>
+Cuối cùng hoàn tất việc tạo security group<br>
+<img src="/blog/workshop1/Lab/../../../images/Pasted%20image%2020240911104535.png" alt="Pasted image 20240911104535.png"/>
+</p>
+<h1 id="sg-cho-private-subnet">SG cho private subnet</h1>
+<p>Tương tự với việc tạo public subnet cần thiết lập tên, mô tả và VPC mà security group gắn liền<br>
+<img src="/blog/workshop1/Lab/../../../images/Pasted%20image%2020240911103610.png" alt="Pasted image 20240911103610.png"/>
+</p>
+<p>Với inbound rule cho phép các tài nguyền nằm trong miền CIDR của public security group có thể SSH tới tài nguyên trong private subnet<br>
+Chẳng hạn cho phép public subnet có máy chủ EC2 từ public subnet được kết nối SSH với máy chủ EC2 trong private subnet<br>
+<img src="/blog/workshop1/Lab/../../../images/Pasted%20image%2020240911103847.png" alt="Pasted image 20240911103847.png"/>
+</p>
+<p>Tiếp đó thêm inbound rule để cho phép ping tới các tài nguyên trong private subnet cho mọi địa chỉ IPv4<br>
+<img src="/blog/workshop1/Lab/../../../images/Pasted%20image%2020240911104141.png" alt="Pasted image 20240911104141.png"/>
+</p>
+<p>Về outbound rule không có hạn chế nào đối với các tài nguyên trong private subnet<br>
+<img src="/blog/workshop1/Lab/../../../images/Pasted%20image%2020240911104242.png" alt="Pasted image 20240911104242.png"/>
+<br>
+Cuối cùng hoàn tất việc tạo security group<br>
+<img src="/blog/workshop1/Lab/../../../images/Pasted%20image%2020240911104530.png" alt="Pasted image 20240911104530.png"/>
+</p>
+]]></content:encoded>
+    </item>
+    
   </channel>
 </rss>

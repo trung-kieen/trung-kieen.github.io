@@ -1,3 +1,3 @@
 User-agent: *
-Disallow: /admin/
-Sitemap: /sitemap.xml
+Disallow:
+Sitemap: https://trung-kieen.github.io/sitemap.xml

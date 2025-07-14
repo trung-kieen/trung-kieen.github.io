@@ -1,34 +1,51 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Series on trung-kieen</title>
-    <link>/categories/series/</link>
+    <link>https://trung-kieen.github.io/categories/series/</link>
     <description>Recent content in Series on trung-kieen</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>Copyright (c) 2024 trung-kieen</copyright>
-    <lastBuildDate>Fri, 06 Sep 2024 18:19:25 +0700</lastBuildDate>
-    <atom:link href="/categories/series/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 11 Sep 2024 08:36:39 +0700</lastBuildDate><atom:link href="https://trung-kieen.github.io/categories/series/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Workshop 1:  vpc</title>
-      <link>/blog/workshop1/</link>
+      <link>https://trung-kieen.github.io/blog/workshop1/</link>
       <pubDate>Fri, 06 Sep 2024 17:45:41 +0700</pubDate>
-      <guid>/blog/workshop1/</guid>
+      
+      <guid>https://trung-kieen.github.io/blog/workshop1/</guid>
       <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
     </item>
+    
     <item>
       <title>Internet concept</title>
-      <link>/blog/workshop1/internet-concept/</link>
+      <link>https://trung-kieen.github.io/blog/workshop1/internet-concept/</link>
       <pubDate>Fri, 06 Sep 2024 17:46:35 +0700</pubDate>
-      <guid>/blog/workshop1/internet-concept/</guid>
+      
+      <guid>https://trung-kieen.github.io/blog/workshop1/internet-concept/</guid>
       <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
     </item>
+    
     <item>
       <title>Blog</title>
-      <link>/blog/</link>
+      <link>https://trung-kieen.github.io/blog/</link>
       <pubDate>Thu, 07 Sep 2023 16:21:44 +0200</pubDate>
-      <guid>/blog/</guid>
+      
+      <guid>https://trung-kieen.github.io/blog/</guid>
       <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
     </item>
+    
+    <item>
+      <title>Lab</title>
+      <link>https://trung-kieen.github.io/blog/workshop1/lab/</link>
+      <pubDate>Wed, 11 Sep 2024 08:36:39 +0700</pubDate>
+      
+      <guid>https://trung-kieen.github.io/blog/workshop1/lab/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    
   </channel>
 </rss>

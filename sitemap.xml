@@ -2,104 +2,85 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/blog/workshop1/</loc>
-    <lastmod>2024-09-06T18:19:25+07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://trung-kieen.github.io/blog/workshop1/</loc>
+    <lastmod>2024-09-06T17:45:41+07:00</lastmod>
   </url><url>
-    <loc>/blog/vpc/</loc>
-    <lastmod>2024-09-06T18:19:25+07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://trung-kieen.github.io/blog/workshop1/internet-concept/virtual-private-cloud---vpc/</loc>
+    <lastmod>2024-09-06T17:47:05+07:00</lastmod>
   </url><url>
-    <loc>/blog/workshop1/internet-concept/</loc>
-    <lastmod>2024-09-06T18:19:25+07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://trung-kieen.github.io/blog/workshop1/internet-concept/</loc>
+    <lastmod>2024-09-06T17:46:35+07:00</lastmod>
   </url><url>
-    <loc>/blog/</loc>
-    <lastmod>2024-09-06T18:19:25+07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://trung-kieen.github.io/blog/</loc>
+    <lastmod>2023-09-07T16:21:44+02:00</lastmod>
   </url><url>
-    <loc>/blog/subnet/</loc>
-    <lastmod>2024-09-06T18:19:25+07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://trung-kieen.github.io/blog/workshop1/internet-concept/subnet/</loc>
+    <lastmod>2024-09-06T17:53:01+07:00</lastmod>
   </url><url>
-    <loc>/blog/route-table/</loc>
-    <lastmod>2024-09-06T18:19:25+07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://trung-kieen.github.io/blog/workshop1/internet-concept/route-table/</loc>
+    <lastmod>2024-09-06T19:07:05+07:00</lastmod>
   </url><url>
-    <loc>/blog/cidr-block/</loc>
-    <lastmod>2024-09-06T18:19:25+07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://trung-kieen.github.io/blog/workshop1/internet-concept/cidr-block/</loc>
+    <lastmod>2024-09-06T19:50:47+07:00</lastmod>
   </url><url>
-    <loc>/blog/vpc-internet-gateway/</loc>
-    <lastmod>2024-09-06T18:19:25+07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://trung-kieen.github.io/blog/workshop1/internet-concept/internet-gateway----igw/</loc>
+    <lastmod>2024-09-06T18:14:29+07:00</lastmod>
   </url><url>
-    <loc>/blog/nat/</loc>
-    <lastmod>2024-09-06T18:19:25+07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://trung-kieen.github.io/blog/workshop1/internet-concept/nat-gateway/</loc>
+    <lastmod>2024-09-06T19:07:01+07:00</lastmod>
   </url><url>
-    <loc>/blog/network-address-translation-nat/</loc>
-    <lastmod>2024-09-06T18:19:25+07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://trung-kieen.github.io/blog/workshop1/internet-concept/network-address-translation---nat/</loc>
+    <lastmod>2024-09-06T21:05:57+07:00</lastmod>
   </url><url>
-    <loc>/tags/aws/</loc>
-    <lastmod>2024-09-06T18:19:25+07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://trung-kieen.github.io/blog/workshop1/lab/</loc>
+    <lastmod>2024-09-11T08:36:39+07:00</lastmod>
   </url><url>
-    <loc>/tags/blog/</loc>
-    <lastmod>2024-09-06T18:19:25+07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://trung-kieen.github.io/blog/workshop1/lab/price-of-amazon-vpc/</loc>
+    <lastmod>2024-09-11T07:27:52+07:00</lastmod>
   </url><url>
-    <loc>/categories/</loc>
-    <lastmod>2024-09-06T18:19:25+07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://trung-kieen.github.io/blog/workshop1/lab/create-vpc/</loc>
+    <lastmod>2024-09-11T08:22:00+07:00</lastmod>
   </url><url>
-    <loc>/categories/cloud/</loc>
-    <lastmod>2024-09-06T18:19:25+07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://trung-kieen.github.io/blog/workshop1/lab/create-subnet/</loc>
+    <lastmod>2024-09-11T08:25:32+07:00</lastmod>
   </url><url>
-    <loc>/contributors/</loc>
-    <lastmod>2024-09-06T18:19:25+07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://trung-kieen.github.io/blog/workshop1/lab/create-internet-gateway/</loc>
+    <lastmod>2024-09-11T08:35:51+07:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2024-09-06T18:19:25+07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://trung-kieen.github.io/blog/workshop1/lab/create-route-table/</loc>
+    <lastmod>2024-09-11T10:45:58+07:00</lastmod>
   </url><url>
-    <loc>/contributors/trung-kieen/</loc>
-    <lastmod>2024-09-06T18:19:25+07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://trung-kieen.github.io/blog/workshop1/lab/create-security-group/</loc>
+    <lastmod>2024-09-11T10:46:36+07:00</lastmod>
   </url><url>
-    <loc>/categories/series/</loc>
-    <lastmod>2024-09-06T18:19:25+07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://trung-kieen.github.io/tags/aws/</loc>
+    <lastmod>2024-09-11T10:46:36+07:00</lastmod>
   </url><url>
-    <loc>/privacy/</loc>
-    <lastmod>2024-09-04T22:29:59+07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://trung-kieen.github.io/tags/blog/</loc>
+    <lastmod>2024-09-11T10:46:36+07:00</lastmod>
   </url><url>
-    <loc>/</loc>
-    <lastmod>2024-09-06T18:19:25+07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://trung-kieen.github.io/categories/</loc>
+    <lastmod>2024-09-11T10:46:36+07:00</lastmod>
+  </url><url>
+    <loc>https://trung-kieen.github.io/categories/cloud/</loc>
+    <lastmod>2024-09-11T10:46:36+07:00</lastmod>
+  </url><url>
+    <loc>https://trung-kieen.github.io/tags/lab/</loc>
+    <lastmod>2024-09-11T10:46:36+07:00</lastmod>
+  </url><url>
+    <loc>https://trung-kieen.github.io/tags/</loc>
+    <lastmod>2024-09-11T10:46:36+07:00</lastmod>
+  </url><url>
+    <loc>https://trung-kieen.github.io/tags/general/</loc>
+    <lastmod>2024-09-11T08:36:39+07:00</lastmod>
+  </url><url>
+    <loc>https://trung-kieen.github.io/categories/series/</loc>
+    <lastmod>2024-09-11T08:36:39+07:00</lastmod>
+  </url><url>
+    <loc>https://trung-kieen.github.io/privacy/</loc>
+    <lastmod>2023-09-07T17:19:07+02:00</lastmod>
+  </url><url>
+    <loc>https://trung-kieen.github.io/</loc>
+    <lastmod>2023-09-07T16:33:54+02:00</lastmod>
   </url>
 </urlset>
