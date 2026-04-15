@@ -2,43 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://trung-kieen.github.io/blog/deep-learning/evolution-of-deep-learning-architectures/</loc>
-    <lastmod>2025-07-28T20:43:12+07:00</lastmod>
+    <loc>https://trung-kieen.github.io/projects/loci/</loc>
+    <lastmod>2026-01-17T00:00:00+07:00</lastmod>
   </url><url>
-    <loc>https://trung-kieen.github.io/categories/ai/</loc>
-    <lastmod>2025-07-28T20:43:12+07:00</lastmod>
+    <loc>https://trung-kieen.github.io/projects/noise-suppression/</loc>
+    <lastmod>2026-01-17T00:00:00+07:00</lastmod>
   </url><url>
-    <loc>https://trung-kieen.github.io/tags/blog/</loc>
-    <lastmod>2025-07-28T20:43:12+07:00</lastmod>
+    <loc>https://trung-kieen.github.io/projects/vit-serverless/</loc>
+    <lastmod>2026-01-17T00:00:00+07:00</lastmod>
   </url><url>
-    <loc>https://trung-kieen.github.io/categories/</loc>
-    <lastmod>2025-07-28T20:43:12+07:00</lastmod>
+    <loc>https://trung-kieen.github.io/blog/</loc>
+    <lastmod>2023-09-07T16:21:44+02:00</lastmod>
   </url><url>
-    <loc>https://trung-kieen.github.io/tags/deeplearning/</loc>
-    <lastmod>2025-07-28T20:43:12+07:00</lastmod>
+    <loc>https://trung-kieen.github.io/about/</loc>
+    <lastmod>2026-04-14T00:00:00+07:00</lastmod>
   </url><url>
-    <loc>https://trung-kieen.github.io/tags/draftnote/</loc>
-    <lastmod>2025-07-28T20:43:12+07:00</lastmod>
+    <loc>https://trung-kieen.github.io/contact/</loc>
+    <lastmod>2026-04-14T00:00:00+07:00</lastmod>
   </url><url>
-    <loc>https://trung-kieen.github.io/categories/english/</loc>
-    <lastmod>2025-07-28T20:43:12+07:00</lastmod>
+    <loc>https://trung-kieen.github.io/</loc>
+    <lastmod>2026-04-14T00:00:00+07:00</lastmod>
   </url><url>
-    <loc>https://trung-kieen.github.io/categories/general/</loc>
-    <lastmod>2025-07-28T20:43:12+07:00</lastmod>
-  </url><url>
-    <loc>https://trung-kieen.github.io/tags/general/</loc>
-    <lastmod>2025-07-28T20:43:12+07:00</lastmod>
-  </url><url>
-    <loc>https://trung-kieen.github.io/tags/machinelearning/</loc>
-    <lastmod>2025-07-28T20:43:12+07:00</lastmod>
-  </url><url>
-    <loc>https://trung-kieen.github.io/tags/</loc>
-    <lastmod>2025-07-28T20:43:12+07:00</lastmod>
+    <loc>https://trung-kieen.github.io/projects/</loc>
+    <lastmod>2026-01-17T00:00:00+07:00</lastmod>
   </url><url>
     <loc>https://trung-kieen.github.io/privacy/</loc>
     <lastmod>2023-09-07T17:19:07+02:00</lastmod>
   </url><url>
-    <loc>https://trung-kieen.github.io/</loc>
-    <lastmod>2023-09-07T16:33:54+02:00</lastmod>
+    <loc>https://trung-kieen.github.io/tags/blog/</loc>
+    <lastmod>2023-09-07T16:21:44+02:00</lastmod>
+  </url><url>
+    <loc>https://trung-kieen.github.io/categories/</loc>
+    <lastmod>2023-09-07T16:21:44+02:00</lastmod>
+  </url><url>
+    <loc>https://trung-kieen.github.io/categories/series/</loc>
+    <lastmod>2023-09-07T16:21:44+02:00</lastmod>
+  </url><url>
+    <loc>https://trung-kieen.github.io/tags/</loc>
+    <lastmod>2023-09-07T16:21:44+02:00</lastmod>
   </url>
 </urlset>
